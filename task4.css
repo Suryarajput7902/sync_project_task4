@@ -1,0 +1,102 @@
+/* Basic styling, you'll need to add more styles for responsiveness */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: start;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
+
+.search {
+    text-align: center;
+    width: 250px;
+    color: #ee7474;
+}
+.mainsearch{
+    padding-left: 40px;
+    padding-right: 20px;
+}
+.button{
+    background-color: aqua;
+}
+.contact-section {
+    text-align: center;
+  }
+  
+  .contact-form {
+    width: 600px;
+    max-width: 100%;
+    margin: 10px auto 20px;
+    padding: 50px;
+    border-radius: 20px;
+    background-color: #eee;
+  }
+  
+  .contact-form label {
+    display: block;
+    text-align: left;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  @media (max-width: 600px) {
+    .contact-form {
+      padding: 20px;
+      border-radius: 20px;
+    }
+  }
+ .navbar, navbar-expand-lg ,navbar-dark ,fixed-top ,py-2{
+    background-color: #333;
+    display:flexbox;
+  }  
+  .logo{
+    
+    text-align: start;
+    
+  }
+  .page-banner{
+    text-align: center;
+    
+  }
+  .contact{
+    background-color: #d3ee74;
+  }
+  .course-container,.main-container,.about-container{
+    background-color: #f7ec8d;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(213, 221, 107, 0.1);
+    text-align: center;
+  }
